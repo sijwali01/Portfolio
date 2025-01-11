@@ -45,7 +45,7 @@ export default function Home() {
            sequence={[
             "HELLO -- I'm A",
             800,  // Reduce delay
-            "MERN - DEVELOPER",
+            "MERN-DEVELOPER",
             800,  // Reduce delay
           ]}
             wrapper="span"
