@@ -50,7 +50,7 @@ export default function Home() {
           ]}
             wrapper="span"
             speed={50}
-            style={{ fontSize: "2em", display: "block", color: "grey" }}
+            style={{ fontSize: "1.5em", display: "block", color: "grey" }}
             repeat={Infinity}
           />
         </motion.p>
