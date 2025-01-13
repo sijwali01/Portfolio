@@ -19,7 +19,7 @@ export default function Home() {
           transition={{ duration: 0.5, delay: 0.2 }}
         >
          <Image
-  src="/Project-Images/Profile Image.jpg"
+  src="/Project-Images/profile.png"
   alt="Profile Picture"
   width={250} // Adjust for small screen
   height={250} // Adjust for small screen
