@@ -86,7 +86,7 @@ export default function Contact() {
             <a href="https://www.linkedin.com/in/manish-sijwali-23b361196" className="text-text-light hover:text-primary transition-colors">
               <Linkedin className="w-8 h-8" />
             </a>
-            <a href="manishsijwali@gmail.com" className="text-text-light hover:text-primary transition-colors">
+            <a href="mailto:manishsijwali@gmail.com" className="text-text-light hover:text-primary transition-colors">
               <Mail className="w-8 h-8" />
             </a>
           </div>
