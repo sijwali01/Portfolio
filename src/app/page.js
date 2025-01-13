@@ -19,7 +19,7 @@ export default function Home() {
           transition={{ duration: 0.5, delay: 0.2 }}
         >
          <Image
-  src="https://avatars.githubusercontent.com/u/152587691?v=4"
+  src="/Project-Images/Profile Image.jpg"
   alt="Profile Picture"
   width={250} // Adjust for small screen
   height={250} // Adjust for small screen

@@ -31,8 +31,8 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
-            <Link href="/" className="text-2xl font-bold text-gray-900">
-              Your Logo
+            <Link href="/" className="text-2xl font-bold black-text">
+              MY Portfolio
             </Link>
           </div>
           <div className="hidden md:block">
@@ -41,16 +41,16 @@ export default function Navbar() {
                 <Link
                   key={href}
                   href={href}
-                  className={`relative px-3 py-2 rounded-md text-sm font-medium ${
+                  className={`relative px-3 py-2 rounded-md text-sm font-medium nav-link ${
                     pathname === href
-                      ? 'text-blue-600'
-                      : 'text-gray-700 hover:text-blue-600 transition-colors'
+                      ? 'text-primary'
+                      : 'text-text-light hover:text-primary transition-colors'
                   }`}
                 >
                   {label}
                   {pathname === href && (
                     <motion.span
-                      className="absolute left-0 right-0 bottom-0 h-0.5 bg-blue-600"
+                      className="absolute bottom-0 left-0 h-0.5 w-full bg-primary"
                       layoutId="underline"
                       initial={false}
                     />
@@ -62,7 +62,7 @@ export default function Navbar() {
           <div className="md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-blue-600 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500"
+              className="inline-flex items-center justify-center p-2 rounded-md text-text-light hover:text-primary hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primary"
             >
               <span className="sr-only">Open main menu</span>
               {isOpen ? <X className="block h-6 w-6" /> : <Menu className="block h-6 w-6" />}
@@ -71,7 +71,6 @@ export default function Navbar() {
         </div>
       </div>
 
-      {/* Mobile menu */}
       <motion.div
         className={`md:hidden ${isOpen ? 'block' : 'hidden'}`}
         initial={{ opacity: 0, y: -20 }}
@@ -85,8 +84,8 @@ export default function Navbar() {
               href={href}
               className={`block px-3 py-2 rounded-md text-base font-medium ${
                 pathname === href
-                  ? 'text-blue-600 bg-blue-50'
-                  : 'text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-colors'
+                  ? 'text-primary bg-primary-light'
+                  : 'text-text-light hover:text-primary hover:bg-gray-50 transition-colors'
               }`}
               onClick={() => setIsOpen(false)}
             >

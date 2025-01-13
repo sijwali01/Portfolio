@@ -1,12 +1,11 @@
 import './globals.css';
 import { Inter } from 'next/font/google';
-import Navigation from './components/Navbar';
+import Navbar from './components/Navbar';
 
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'Your Name - Portfolio',
-  description: 'Web Developer & Designer Portfolio',
+  title: 'Portfolio'
 };
 
 export default function RootLayout({ children }) {
@@ -20,7 +19,7 @@ export default function RootLayout({ children }) {
         <title>{metadata.title}</title>
       </head>
       <body className={inter.className}>
-        <Navigation />
+        <Navbar />
         {children}
       </body>
     </html>
