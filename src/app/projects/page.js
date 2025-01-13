@@ -23,7 +23,7 @@ const projects = [
     title: 'Portfolio Website', 
     description: 'A responsive portfolio website showcasing my work and skills.',
     image: '/Project-Images/Portfolio-Desk.jpg',
-    href:'https://github.com/sijwali01/Learning-Next.js'
+    href:'https://github.com/sijwali01/Portfolio'
   },
   { 
     id: 4, 
