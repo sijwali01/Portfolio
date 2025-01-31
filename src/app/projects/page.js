@@ -6,32 +6,47 @@ import Image from 'next/image'
 const projects = [
   { 
     id: 1, 
-    title: 'E-commerce Platform', 
-    description: 'A full-stack e-commerce solution built with Next.js and Stripe.',
+    title: 'Dev Tinder', 
+    description: 'A full-stack platform for developers.',
     image: '/Project-Images/dev-tinder.jpg',
     href:'https://github.com/sijwali01/DevTinder'
   },
   { 
     id: 2, 
-    title: 'Task Management App', 
-    description: 'A React-based task management application with a Node.js backend.',
+    title: 'Foodie Hub', 
+    description: 'A platform for foodies to share their recipes and food experiences.',
     image: '/Project-Images/the-food-hub.jpg',
-    href:'https://github.com/sijwali01/DevTinder'
+    href:'https://github.com/sijwali01/Foodie-Restaurant'
   },
   { 
     id: 3, 
+    title: 'Authentication System', 
+    description: 'A full-stack authentication system using Reactjs, Node.js, Express, and MongoDB.',
+    image: '/Project-Images/Auth_image.png',
+    href:'https://github.com/sijwali01/weather-web'
+  },
+  { 
+    id: 4, 
     title: 'Portfolio Website', 
     description: 'A responsive portfolio website showcasing my work and skills.',
     image: '/Project-Images/Portfolio-Desk.jpg',
     href:'https://github.com/sijwali01/Portfolio'
   },
   { 
-    id: 4, 
+    id: 5, 
     title: 'Weather Dashboard', 
     description: 'A weather dashboard using React and integrating with a weather API.',
     image: '/Project-Images/whether.jpg',
-    href:'https://github.com/sijwali01/weather-web'
+    href:'https://github.com/sijwali01/Auth_User'
   },
+  { 
+    id: 6, 
+    title: 'Todo App', 
+    description: 'A simple todo app using React.',
+    image: '/Project-Images/todo.jpg',
+    href:'https://github.com/sijwali01/todoApp'
+  },
+ 
 ]
 
 export default function Projects() {
