@@ -23,7 +23,7 @@ const projects = [
     title: 'Authentication System', 
     description: 'A full-stack authentication system using Reactjs, Node.js, Express, and MongoDB.',
     image: '/Project-Images/Auth_image.png',
-    href:'https://github.com/sijwali01/weather-web'
+    href:'https://github.com/sijwali01/Auth_User'
   },
   { 
     id: 4, 
@@ -37,7 +37,7 @@ const projects = [
     title: 'Weather Dashboard', 
     description: 'A weather dashboard using React and integrating with a weather API.',
     image: '/Project-Images/whether.jpg',
-    href:'https://github.com/sijwali01/Auth_User'
+    href:'https://github.com/sijwali01/weather-web'
   },
   { 
     id: 6, 
