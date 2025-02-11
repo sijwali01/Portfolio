@@ -9,7 +9,7 @@ const projects = [
     title: 'Dev Tinder', 
     description: 'A full-stack platform for developers.',
     image: '/Project-Images/dev-tinder.jpg',
-    href:'https://github.com/sijwali01/DevTinder'
+    href:'https://github.com/sijwali01/Dev_Tinder'
   },
   { 
     id: 2, 
